@@ -43,9 +43,10 @@ namespace ChordSpitterAPI.Controllers
 
         // GET: api/Chords/Random 
         [HttpGet("Random")]
-        public string GetRandomChord()
+        public async Task<string> GetRandomChord()
         {
-            return RandomChord.GenerateRandomChord(); 
+            var randomChord = await Task.Run(() => RandomChord.GenerateRandomChord());
+            return randomChord;
         }
 
         // PUT: api/Chords/5

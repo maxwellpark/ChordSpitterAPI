@@ -10,7 +10,7 @@ namespace ChordSpitterAPI.Models
     {
         private static Random random = new Random();
         private static string[] qualities = new string[] { "Major", "Minor", "Augmented", "Diminished" };
-        private static int[] extensions = new int[] { 7, 9, 11, 13 };
+        private static int[] extensions = new int[] { 6, 7, 9, 11, 13 };
         public static string GenerateRandomChord()
         {
             char rootNote = (char)('A' + random.Next(0, 6)); 
