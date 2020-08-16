@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30104.148
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChordSpitterAPI", "ChordSpitterAPI.csproj", "{FB8B659C-C21D-4FA1-937A-23F234AF9110}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChordSpitterAPI", "ChordSpitterAPI.csproj", "{FB8B659C-C21D-4FA1-937A-23F234AF9110}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChordDataAccess", "..\ChordDataAccess\ChordDataAccess.csproj", "{9F4281CC-BBDC-4812-8E1A-24A03C8CEB2A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{FB8B659C-C21D-4FA1-937A-23F234AF9110}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FB8B659C-C21D-4FA1-937A-23F234AF9110}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FB8B659C-C21D-4FA1-937A-23F234AF9110}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F4281CC-BBDC-4812-8E1A-24A03C8CEB2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F4281CC-BBDC-4812-8E1A-24A03C8CEB2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F4281CC-BBDC-4812-8E1A-24A03C8CEB2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F4281CC-BBDC-4812-8E1A-24A03C8CEB2A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
